@@ -3,12 +3,12 @@
 <template>
   <div class="flex flex-col h-screen Koachub">
     <div class="p-4 header bg-primary">
-      <img src="logo.png" class="w-8 mx-auto" />
+      <img src="~/assets/logo.png" class="w-8 mx-auto" />
     </div>
-    <main class="container flex items-center justify-center my-12">
+    <main class="flex items-center justify-center my-12">
       <div class="mx-auto text-center" style="max-width: 750px">
         <img
-          src="profile.png"
+          src="~/assets/profile.png"
           class="mx-auto mb-8 shadow-md"
           style="max-width: 600px; width: 100%"
         />
@@ -18,7 +18,7 @@
           Aurélia & Typhaine qui ont organisé 500 évènements pour plus de 5000
           participants en une année.<br />
         </p>
-        <img src="founders.png" class="w-48 mx-auto mb-2" />
+        <img src="~/assets/founders.png" class="w-48 mx-auto mb-2" />
         <p>Clément & Guillaume, CEO & CTO</p>
       </div>
     </main>
